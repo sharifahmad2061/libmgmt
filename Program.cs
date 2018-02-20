@@ -11,12 +11,14 @@ namespace libmgmt
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
+        //static Form main_form = new mainForm();
+
         [STAThread]
         static void Main()
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new mainForm());
         }
     }
 }

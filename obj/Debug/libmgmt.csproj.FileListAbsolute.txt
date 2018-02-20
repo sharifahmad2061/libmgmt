@@ -1,1 +1,11 @@
-c:\users\shari\documents\visual studio 2013\Projects\libmgmt\libmgmt\bin\Debug\libmgmt.exe.config
+C:\Users\shari\documents\visual studio 2013\Projects\libmgmt\libmgmt\bin\Debug\libmgmt.exe.config
+C:\Users\shari\documents\visual studio 2013\Projects\libmgmt\libmgmt\bin\Debug\libmgmt.exe
+C:\Users\shari\documents\visual studio 2013\Projects\libmgmt\libmgmt\bin\Debug\libmgmt.pdb
+C:\Users\shari\documents\visual studio 2013\Projects\libmgmt\libmgmt\obj\Debug\libmgmt.csprojResolveAssemblyReference.cache
+C:\Users\shari\documents\visual studio 2013\Projects\libmgmt\libmgmt\obj\Debug\libmgmt.login.resources
+C:\Users\shari\documents\visual studio 2013\Projects\libmgmt\libmgmt\obj\Debug\libmgmt.mainForm.resources
+C:\Users\shari\documents\visual studio 2013\Projects\libmgmt\libmgmt\obj\Debug\libmgmt.Properties.Resources.resources
+C:\Users\shari\documents\visual studio 2013\Projects\libmgmt\libmgmt\obj\Debug\libmgmt.register.resources
+C:\Users\shari\documents\visual studio 2013\Projects\libmgmt\libmgmt\obj\Debug\libmgmt.csproj.GenerateResource.Cache
+C:\Users\shari\documents\visual studio 2013\Projects\libmgmt\libmgmt\obj\Debug\libmgmt.exe
+C:\Users\shari\documents\visual studio 2013\Projects\libmgmt\libmgmt\obj\Debug\libmgmt.pdb
