@@ -8,4 +8,3 @@ C:\Users\shari\documents\visual studio 2013\Projects\libmgmt\libmgmt\obj\Release
 C:\Users\shari\documents\visual studio 2013\Projects\libmgmt\libmgmt\obj\Release\libmgmt.csproj.GenerateResource.Cache
 C:\Users\shari\documents\visual studio 2013\Projects\libmgmt\libmgmt\obj\Release\libmgmt.exe
 C:\Users\shari\documents\visual studio 2013\Projects\libmgmt\libmgmt\obj\Release\libmgmt.pdb
-C:\Users\shari\documents\visual studio 2013\Projects\libmgmt\libmgmt\obj\Release\libmgmt.csprojResolveAssemblyReference.cache
