@@ -79,13 +79,13 @@
             // 
             this.registerToSystemBtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.registerToSystemBtn.ForeColor = System.Drawing.Color.Crimson;
-            this.registerToSystemBtn.Location = new System.Drawing.Point(114, 305);
+            this.registerToSystemBtn.Location = new System.Drawing.Point(131, 305);
             this.registerToSystemBtn.Name = "registerToSystemBtn";
             this.registerToSystemBtn.Size = new System.Drawing.Size(200, 40);
             this.registerToSystemBtn.TabIndex = 4;
             this.registerToSystemBtn.Text = "Register";
             this.registerToSystemBtn.UseVisualStyleBackColor = true;
-            this.registerToSystemBtn.Click += new System.EventHandler(this.button1_Click);
+            this.registerToSystemBtn.Click += new System.EventHandler(this.registerToSystemBtn_Click);
             // 
             // regBack
             // 

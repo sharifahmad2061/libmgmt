@@ -61,7 +61,31 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="adminView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="adminView.Designer.cs">
+      <DependentUpon>adminView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="artifactInsertion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="artifactInsertion.Designer.cs">
+      <DependentUpon>artifactInsertion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArtifactsView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArtifactsView.Designer.cs">
+      <DependentUpon>ArtifactsView.cs</DependentUpon>
+    </Compile>
     <Compile Include="helper.cs" />
+    <Compile Include="IssueArtifact.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IssueArtifact.Designer.cs">
+      <DependentUpon>IssueArtifact.cs</DependentUpon>
+    </Compile>
     <Compile Include="login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -82,6 +106,30 @@
     <Compile Include="register.Designer.cs">
       <DependentUpon>register.cs</DependentUpon>
     </Compile>
+    <Compile Include="userInsertion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="userInsertion.Designer.cs">
+      <DependentUpon>userInsertion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="usersView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="usersView.Designer.cs">
+      <DependentUpon>usersView.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="adminView.resx">
+      <DependentUpon>adminView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="artifactInsertion.resx">
+      <DependentUpon>artifactInsertion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArtifactsView.resx">
+      <DependentUpon>ArtifactsView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IssueArtifact.resx">
+      <DependentUpon>IssueArtifact.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="login.resx">
       <DependentUpon>login.cs</DependentUpon>
     </EmbeddedResource>
@@ -99,6 +147,12 @@
     </Compile>
     <EmbeddedResource Include="register.resx">
       <DependentUpon>register.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="userInsertion.resx">
+      <DependentUpon>userInsertion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="usersView.resx">
+      <DependentUpon>usersView.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

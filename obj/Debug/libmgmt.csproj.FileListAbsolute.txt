@@ -9,3 +9,9 @@ C:\Users\shari\documents\visual studio 2013\Projects\libmgmt\libmgmt\obj\Debug\l
 C:\Users\shari\documents\visual studio 2013\Projects\libmgmt\libmgmt\obj\Debug\libmgmt.csproj.GenerateResource.Cache
 C:\Users\shari\documents\visual studio 2013\Projects\libmgmt\libmgmt\obj\Debug\libmgmt.exe
 C:\Users\shari\documents\visual studio 2013\Projects\libmgmt\libmgmt\obj\Debug\libmgmt.pdb
+C:\Users\shari\documents\visual studio 2013\Projects\libmgmt\libmgmt\obj\Debug\libmgmt.adminView.resources
+C:\Users\shari\documents\visual studio 2013\Projects\libmgmt\libmgmt\obj\Debug\libmgmt.artifactInsertion.resources
+C:\Users\shari\documents\visual studio 2013\Projects\libmgmt\libmgmt\obj\Debug\libmgmt.IssueArtifact.resources
+C:\Users\shari\documents\visual studio 2013\Projects\libmgmt\libmgmt\obj\Debug\libmgmt.userInsertion.resources
+C:\Users\shari\documents\visual studio 2013\Projects\libmgmt\libmgmt\obj\Debug\libmgmt.ArtifactsView.resources
+C:\Users\shari\documents\visual studio 2013\Projects\libmgmt\libmgmt\obj\Debug\libmgmt.usersView.resources

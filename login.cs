@@ -14,13 +14,14 @@ namespace libmgmt
 {
     public partial class login : Form
     {
+        private Form adminView;
         private string email;
         private string psd;
         public login()
         {
             InitializeComponent();
-            email = loginEmail.Text;
-            psd = loginPsd.Text;
+            //email = loginEmail.Text;
+            //psd = loginPsd.Text;
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -37,17 +38,42 @@ namespace libmgmt
 
         private void loginToSystemBtn_Click(object sender, EventArgs e)
         {
-            //MessageBox.Show(helper.cnnVal("lbmgmt"));
+            email = loginEmail.Text;
+            psd = loginPsd.Text;
+
             MySqlConnection conn = new MySqlConnection(helper.cnnVal("lbmgmt"));
-            //MySqlCommand cmd = new MySqlCommand();
-            //cmd.CommandText = "SELECT * FROM admin WHERE ";
-            String temp = "hello " + email + " to " + psd;
-            MessageBox.Show(temp);
-
-            //conn.Open();
+            MySqlCommand cmd = new MySqlCommand();
             
+            string sql = string.Format("SELECT COUNT(*) FROM admin WHERE email='{0}' and password='{1}'",email,psd);
+            cmd.CommandText = sql;
+            //MessageBox.Show(cmd.CommandText);
+            cmd.Connection = conn;
+            
+            conn.Open();
+            MySqlDataReader rdr = cmd.ExecuteReader();
+            rdr.Read();
+            //MessageBox.Show(rdr[0].GetType().ToString());
+            if ((Int64)rdr[0] == 1)
+            {
+                //MessageBox.Show("login successfull");
+                adminView = new adminView();
+                adminView.Show();
+                this.Hide();
+            }
+            else
+            {
+                MessageBox.Show("login unsuccessful");
+            }
+
+            //MySqlDataAdapter adp = new MySqlDataAdapter(sql,conn);
+            //DataSet us = new DataSet();
+            //adp.Fill(us,"admin");
+            //MessageBox.Show(us.GetXml());
+            //us.Dispose();
+            //adp.Dispose();
 
 
+            conn.Close();
         }
     }
 }
