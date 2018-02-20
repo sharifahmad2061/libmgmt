@@ -72,6 +72,7 @@
             this.regPsd.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.regPsd.Location = new System.Drawing.Point(206, 110);
             this.regPsd.Name = "regPsd";
+            this.regPsd.PasswordChar = '*';
             this.regPsd.Size = new System.Drawing.Size(200, 27);
             this.regPsd.TabIndex = 3;
             // 

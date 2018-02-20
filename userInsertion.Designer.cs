@@ -93,6 +93,7 @@
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "userInsertion";
             this.Text = "userInsertion";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.userInsertion_FormClosing);
             this.ResumeLayout(false);
             this.PerformLayout();
 

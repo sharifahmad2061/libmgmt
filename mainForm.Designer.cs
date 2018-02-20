@@ -78,6 +78,7 @@
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "mainForm";
             this.Text = "Library management system";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.mainForm_FormClosing);
             this.ResumeLayout(false);
             this.PerformLayout();
 

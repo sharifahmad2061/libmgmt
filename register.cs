@@ -42,7 +42,7 @@ namespace libmgmt
             MySqlConnection conn = new MySqlConnection(helper.cnnVal("lbmgmt"));
             MySqlCommand cmd = new MySqlCommand();
 
-            string sql = string.Format("INSERT INTO admin VALUES({0},{1})", email, psd);
+            string sql = string.Format("INSERT INTO admin VALUES('{0}','{1}')", email, psd);
             cmd.CommandText = sql;
             //MessageBox.Show(cmd.CommandText);
             cmd.Connection = conn;

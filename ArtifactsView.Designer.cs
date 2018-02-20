@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.artifactViewDataGrid = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.artifactViewDataGrid)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -43,26 +43,32 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Artifacts";
             // 
-            // dataGridView1
+            // artifactViewDataGrid
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(2, 63);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(480, 345);
-            this.dataGridView1.TabIndex = 1;
+            this.artifactViewDataGrid.AllowUserToAddRows = false;
+            this.artifactViewDataGrid.AllowUserToDeleteRows = false;
+            this.artifactViewDataGrid.AllowUserToResizeColumns = false;
+            this.artifactViewDataGrid.AllowUserToResizeRows = false;
+            this.artifactViewDataGrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.artifactViewDataGrid.Location = new System.Drawing.Point(2, 63);
+            this.artifactViewDataGrid.Name = "artifactViewDataGrid";
+            this.artifactViewDataGrid.Size = new System.Drawing.Size(480, 345);
+            this.artifactViewDataGrid.TabIndex = 1;
             // 
             // ArtifactsView
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(484, 411);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.artifactViewDataGrid);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "ArtifactsView";
             this.Text = "ArtifactsView";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.ArtifactsView_FormClosing);
+            this.Load += new System.EventHandler(this.ArtifactsView_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.artifactViewDataGrid)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -71,6 +77,6 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView artifactViewDataGrid;
     }
 }

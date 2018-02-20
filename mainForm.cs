@@ -37,5 +37,12 @@ namespace libmgmt
             register_form.Show();
             this.Hide();
         }
+
+        private void mainForm_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            login_form.Close();
+            register_form.Close();
+            Application.Exit();
+        }
     }
 }
