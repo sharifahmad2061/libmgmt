@@ -42,7 +42,7 @@
             this.seeArtifacts.TabIndex = 0;
             this.seeArtifacts.Text = "See Artifacts";
             this.seeArtifacts.UseVisualStyleBackColor = true;
-            this.seeArtifacts.Click += new System.EventHandler(this.button1_Click);
+            this.seeArtifacts.Click += new System.EventHandler(this.seeArtifactBtn_Click);
             // 
             // seeUserData
             // 
@@ -53,7 +53,7 @@
             this.seeUserData.TabIndex = 1;
             this.seeUserData.Text = "See Users Data";
             this.seeUserData.UseVisualStyleBackColor = true;
-            this.seeUserData.Click += new System.EventHandler(this.button2_Click);
+            this.seeUserData.Click += new System.EventHandler(this.seeUserDataBtn_Click);
             // 
             // IssueArtifact
             // 
@@ -64,7 +64,7 @@
             this.IssueArtifact.TabIndex = 2;
             this.IssueArtifact.Text = "Provide An Artifact";
             this.IssueArtifact.UseVisualStyleBackColor = true;
-            this.IssueArtifact.Click += new System.EventHandler(this.button3_Click);
+            this.IssueArtifact.Click += new System.EventHandler(this.issueAnArtifactBtn_Click);
             // 
             // adminView
             // 

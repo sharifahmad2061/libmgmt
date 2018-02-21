@@ -195,12 +195,13 @@
             // 
             // artifactInsert
             // 
+            this.artifactInsert.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.artifactInsert.ForeColor = System.Drawing.Color.Crimson;
             this.artifactInsert.Location = new System.Drawing.Point(145, 334);
             this.artifactInsert.Name = "artifactInsert";
             this.artifactInsert.Size = new System.Drawing.Size(200, 30);
             this.artifactInsert.TabIndex = 16;
-            this.artifactInsert.Text = "button1";
+            this.artifactInsert.Text = "Insert artifact in database";
             this.artifactInsert.UseVisualStyleBackColor = true;
             this.artifactInsert.Click += new System.EventHandler(this.artifactInsert_Click);
             // 
@@ -230,6 +231,7 @@
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "artifactInsertion";
             this.Text = "artifactInsertion";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.artifactInsertion_FormClosing);
             this.ResumeLayout(false);
             this.PerformLayout();
 

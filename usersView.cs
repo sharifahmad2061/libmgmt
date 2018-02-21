@@ -16,5 +16,10 @@ namespace libmgmt
         {
             InitializeComponent();
         }
+
+        private void usersView_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

@@ -39,6 +39,7 @@
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "usersView";
             this.Text = "usersView";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.usersView_FormClosing);
             this.ResumeLayout(false);
 
         }
